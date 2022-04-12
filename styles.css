@@ -1,11 +1,11 @@
 body {
-    background: #2a2e32;
+    background-color: #2a2e32 !important;
   }
   
 footer {
     background: #212529;
   }
   
-navbar {
-    background: #212529;
+nav {
+    background-color: #212529 !important;
   }
