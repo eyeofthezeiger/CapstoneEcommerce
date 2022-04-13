@@ -1,11 +1,60 @@
 body {
-    background-color: #2a2e32 !important;
+    background-color: #d2d0ce !important;
   }
   
-footer {
+footer{
     background: #212529;
   }
   
-nav {
-    background-color: #212529 !important;
-  }
+
+.navbar { 
+  background-color: #212529 !important;
+}
+
+html *
+{
+   color: white !important;
+}
+
+#navbarSupportedContent {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+h2, h5{
+  text-align: center;
+  font-family: "Fancy Font", Verdana, Tahoma;
+}
+
+#homepageSubHeading {
+  background-color: #212529 !important;
+  padding: 4px;
+}
+
+#homepageCard {
+  margin: 80px;
+  border-radius: 10px ;
+  box-shadow: 5px 5px 20px #212529;
+}
+#homepageCard2 {
+  margin: 80px;
+}
+
+.top-sellers {
+  border-radius: 10px ;
+  box-shadow: 5px 5px 20px #212529;
+}
+
+.carousel-item {
+    border-radius: 10px ;
+}
+
+.d-block {
+  border-radius: 10px ;
+}
+
+@font-face {
+  font-family: "Fancy Font";
+  src:local(assets/2PeasPlatformShoes-5yEz) format("truetype");
+}
+
