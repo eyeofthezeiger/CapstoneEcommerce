@@ -11,10 +11,10 @@ footer{
   background-color: #212529 !important;
 }
 
-/* html *
+html *
 {
    color: white !important;
-} */
+}
 
 #navbarSupportedContent {
   margin-left: auto;
@@ -63,5 +63,17 @@ h2, h5{
 @font-face {
   font-family: "Fancy Font";
   src:local(assets/2PeasPlatformShoes-5yEz) format("truetype");
+}
+
+.form-label {
+  color: #212529 !important;
+}
+
+#contactHeading, #productsHeader, #registrationHeading, #loginHeading  {
+  color: #212529 !important;
+}
+
+.card-text, .card-title, .dropdown-item, .modal-title, th, td {
+  color: #212529 !important;
 }
 

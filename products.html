@@ -9,28 +9,53 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg">
+
+
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Shoobie's Paradise</a>
+          <a class="navbar-brand" href="Index.html">
+              <div>
+              <object data="assets/Tennis Shoe.svg" width="30" height="30"> </object>
+              <object data="assets/Bee-Spring-2010.svg" width="30" height="30"></object>
+              <object data="assets/Palm2-brighter.svg" width="30" height="30"></object>
+              &nbsp;&nbsp; ShoeBeesParadise 
+            </div>
+            </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-auto mb-2 mb-lg-0">
+            <li class="nav-item">                
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></form>
+            </li>
+
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                <a class="nav-link active" aria-current="contact us" href="contact.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                      </svg>
+                </a>
+              </li>
+              <li class="nav-item" aria-current="Shop more">
+                <a class="nav-link" href="products.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+                    </svg>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" aria-current="Your account" href="login.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                      </svg>
+                </a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-              <button class="btn btn-outline-success" type="submit">Login</button>
-              <button class="btn btn-outline-success" type="submit">Register</button>
-            </form>
           </div>
+
         </div>
       </nav>
       <br />
@@ -38,7 +63,7 @@
       <br />
       <br />
 
-      <h5 class="mb-5">Results: 8 </h5>
+      <h5 id="productsHeader"class="mb-5">Results: 8 </h5>
 
       <div class="container mb-5">
         <div class="row"> 
@@ -46,7 +71,7 @@
             <img src="assets/AddidasCloudfoam.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mt-5">
                 <div class="card-body">
                     <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
                     <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
@@ -75,7 +100,7 @@
                             <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Size Chart
                               </button></div>
-                            <div class="col">$49.99</div>
+                            <div class="col card-text">$49.99</div>
                             <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
                   </div>
             </div>
@@ -83,13 +108,14 @@
         </div>
         
       </div>
-      <div class="container mb-auto">
-        <div class="row"> 
+      <br />
+      <div class="container mb-5" style="margin-bottom: 5vh !important">
+        <div class="row mb-5"> 
           <div class="col">
-            <img src="assets/AddidasCloudfoam.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
+            <img src="assets/AddidasTerrex.jpg" class="top-sellers" width="400" height="100%" alt="Computer Hope">
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mt-5">
                 <div class="card-body">
                     <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
                     <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
@@ -118,94 +144,7 @@
                             <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Size Chart
                               </button></div>
-                            <div class="col">$49.99</div>
-                            <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
-                  </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-
-      <div class="container mb-5">
-        <div class="row"> 
-          <div class="col">
-            <img src="assets/AddidasCloudfoam.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
-          </div>
-          <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
-                    <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
-                    <div class="container">
-                        <div class="row"> 
-                            <div class="col">
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Size
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                      <li><a class="dropdown-item" href="#">5</a></li>
-                                      <li><a class="dropdown-item" href="#">5.5</a></li>
-                                      <li><a class="dropdown-item" href="#">6</a></li>
-                                      <li><a class="dropdown-item" href="#">6.5</a></li>
-                                      <li><a class="dropdown-item" href="#">7</a></li>
-                                      <li><a class="dropdown-item" href="#">7.5</a></li>
-                                      <li><a class="dropdown-item" href="#">8</a></li>
-                                      <li><a class="dropdown-item" href="#">8.5</a></li>
-                                      <li><a class="dropdown-item" href="#">9</a></li>
-                                      <li><a class="dropdown-item" href="#">9.5</a></li>
-                                      <li><a class="dropdown-item" href="#">10</a></li>
-                                    </ul>
-                                  </div>
-                            </div>
-                            <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Size Chart
-                              </button></div>
-                            <div class="col">$49.99</div>
-                            <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
-                  </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <div class="container mb-auto">
-        <div class="row"> 
-          <div class="col">
-            <img src="assets/AddidasCloudfoam.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
-          </div>
-          <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
-                    <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
-                    <div class="container">
-                        <div class="row"> 
-                            <div class="col">
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Size
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                      <li><a class="dropdown-item" href="#">5</a></li>
-                                      <li><a class="dropdown-item" href="#">5.5</a></li>
-                                      <li><a class="dropdown-item" href="#">6</a></li>
-                                      <li><a class="dropdown-item" href="#">6.5</a></li>
-                                      <li><a class="dropdown-item" href="#">7</a></li>
-                                      <li><a class="dropdown-item" href="#">7.5</a></li>
-                                      <li><a class="dropdown-item" href="#">8</a></li>
-                                      <li><a class="dropdown-item" href="#">8.5</a></li>
-                                      <li><a class="dropdown-item" href="#">9</a></li>
-                                      <li><a class="dropdown-item" href="#">9.5</a></li>
-                                      <li><a class="dropdown-item" href="#">10</a></li>
-                                    </ul>
-                                  </div>
-                            </div>
-                            <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Size Chart
-                              </button></div>
-                            <div class="col">$49.99</div>
+                            <div class="col card-text">$49.99</div>
                             <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
                   </div>
             </div>
@@ -217,10 +156,10 @@
       <div class="container mb-5">
         <div class="row"> 
           <div class="col">
-            <img src="assets/AddidasCloudfoam.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
+            <img src="assets/LifeStrideHighBoots.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mt-5">
                 <div class="card-body">
                     <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
                     <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
@@ -249,7 +188,7 @@
                             <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Size Chart
                               </button></div>
-                            <div class="col">$49.99</div>
+                            <div class="col card-text">$49.99</div>
                             <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
                   </div>
             </div>
@@ -260,10 +199,10 @@
       <div class="container mb-auto">
         <div class="row"> 
           <div class="col">
-            <img src="assets/AddidasCloudfoam.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
+            <img src="assets/Yeezu700Copper.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mt-5">
                 <div class="card-body">
                     <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
                     <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
@@ -292,7 +231,7 @@
                             <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Size Chart
                               </button></div>
-                            <div class="col">$49.99</div>
+                            <div class="col card-text">$49.99</div>
                             <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
                   </div>
             </div>
@@ -304,10 +243,10 @@
       <div class="container mb-5">
         <div class="row"> 
           <div class="col">
-            <img src="assets/AddidasCloudfoam.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
+            <img src="assets/Yeezy300Citrin.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mt-5">
                 <div class="card-body">
                     <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
                     <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
@@ -336,7 +275,7 @@
                             <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Size Chart
                               </button></div>
-                            <div class="col">$49.99</div>
+                            <div class="col card-text">$49.99</div>
                             <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
                   </div>
             </div>
@@ -347,10 +286,10 @@
       <div class="container mb-auto">
         <div class="row"> 
           <div class="col">
-            <img src="assets/AddidasCloudfoam.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
+            <img src="assets/Yeezy350Zebra.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
           </div>
           <div class="col">
-            <div class="card">
+            <div class="card mt-5">
                 <div class="card-body">
                     <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
                     <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
@@ -379,7 +318,95 @@
                             <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                 Size Chart
                               </button></div>
-                            <div class="col">$49.99</div>
+                            <div class="col card-text">$49.99</div>
+                            <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="container mb-5">
+        <div class="row"> 
+          <div class="col">
+            <img src="assets/YeezyBoost350.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
+          </div>
+          <div class="col">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
+                    <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
+                    <div class="container">
+                        <div class="row"> 
+                            <div class="col">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Size
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">5</a></li>
+                                      <li><a class="dropdown-item" href="#">5.5</a></li>
+                                      <li><a class="dropdown-item" href="#">6</a></li>
+                                      <li><a class="dropdown-item" href="#">6.5</a></li>
+                                      <li><a class="dropdown-item" href="#">7</a></li>
+                                      <li><a class="dropdown-item" href="#">7.5</a></li>
+                                      <li><a class="dropdown-item" href="#">8</a></li>
+                                      <li><a class="dropdown-item" href="#">8.5</a></li>
+                                      <li><a class="dropdown-item" href="#">9</a></li>
+                                      <li><a class="dropdown-item" href="#">9.5</a></li>
+                                      <li><a class="dropdown-item" href="#">10</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Size Chart
+                              </button></div>
+                            <div class="col card-text">$49.99</div>
+                            <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <br>
+      <div class="container mb-auto">
+        <div class="row"> 
+          <div class="col">
+            <img src="assets/Yeezy700BrightCyan.JPG" class="top-sellers" width="400" height="300" alt="Computer Hope">
+          </div>
+          <div class="col">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Addidas Cloudfoam Advantage Sneakers</h5>
+                    <p class="card-text">Sometimes classic is the best answer for the future. These adidas tennis-inspired sneakers ground you in a modern classic while you explore what makes you you. Wear them all day for any occasion.</p>
+                    <div class="container">
+                        <div class="row"> 
+                            <div class="col">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Size
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">5</a></li>
+                                      <li><a class="dropdown-item" href="#">5.5</a></li>
+                                      <li><a class="dropdown-item" href="#">6</a></li>
+                                      <li><a class="dropdown-item" href="#">6.5</a></li>
+                                      <li><a class="dropdown-item" href="#">7</a></li>
+                                      <li><a class="dropdown-item" href="#">7.5</a></li>
+                                      <li><a class="dropdown-item" href="#">8</a></li>
+                                      <li><a class="dropdown-item" href="#">8.5</a></li>
+                                      <li><a class="dropdown-item" href="#">9</a></li>
+                                      <li><a class="dropdown-item" href="#">9.5</a></li>
+                                      <li><a class="dropdown-item" href="#">10</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class ="col"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Size Chart
+                              </button></div>
+                            <div class="col card-text">$49.99</div>
                             <div class="col"><a href="#" class="btn btn-primary">Add to Cart</a></div>
                   </div>
             </div>
@@ -491,45 +518,27 @@
     </div>
   </div>
 
-      <footer class="w-100 py-4 flex-shrink-0">
-        <div class="container py-4">
-            <div class="row gy-4 gx-5">
-                <div class="col-lg-4 col-md-6">
-                    <h5 class="h1 text-white">FB.</h5>
-                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <h5 class="text-white mb-3">Quick links</h5>
-                    <ul class="list-unstyled text-muted">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Get started</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <h5 class="text-white mb-3">Quick links</h5>
-                    <ul class="list-unstyled text-muted">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Get started</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-3">Newsletter</h5>
-                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                    <form action="#">
-                        <div class="input-group mb-3">
-                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
-                        </div>
-                    </form>
-                </div>
+  <footer class="w-100 py-4 flex-shrink-0">
+    <div class="container py-4">
+        <div class="row gy-4 gx-5">
+            <div class="col-lg-10 col-md-6">
+                <h5 class="h1 text-white">ShoeBees Paradise</h5>
+                <p class="small text-muted">I hope you enjoy my capstone project. The shoes listed here are currently not for sale. Most of them have already been sold through my ebay store.</p>
+                <p class="small text-muted mb-0">&copy; 2022 Copyrights. All rights reserved. <a class="text-primary" href="#">ShoeBeesParadise.io</a></p>
+            </div>
+            <div class="col-lg-2 col-md-6 justify-content-end">
+                <h5 class="text-white mb-3">Quick links</h5>
+                <ul class="list-unstyled text-muted">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
