@@ -11,10 +11,10 @@ footer{
   background-color: #212529 !important;
 }
 
-html *
+/* html *
 {
    color: white !important;
-}
+} */
 
 #navbarSupportedContent {
   margin-left: auto;
@@ -31,11 +31,18 @@ h2, h5{
   padding: 4px;
 }
 
-#homepageCard {
+#homepageCard  {
   margin: 80px;
   border-radius: 10px ;
   box-shadow: 5px 5px 20px #212529;
 }
+
+#loginCard {
+  border-radius: 10px ;
+  box-shadow: 5px 5px 20px #212529;
+  width: 50%;
+}
+
 #homepageCard2 {
   margin: 80px;
 }
